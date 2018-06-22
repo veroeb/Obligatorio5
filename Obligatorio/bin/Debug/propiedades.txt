@@ -2,3 +2,7 @@ dsfdsfsd0
 dsfdsfsd0
 dsfdsfsd0
 0
+Malvin467000
+2342423211996145MontevideoMontevideoMalvinBuen estado1Aconcagua 5277True
+Precio: 76575, habitaciones: 3, dormitorios: 2, baños: 1, año de construcción: 2004, metros cuadrados: 134², departamento: Montevideo, ciudad: Montevideo, barrio: Malvin, estado fisico: Buen estado, garages :1, direccion: Aconcagua 5277, parrillero: True
+Precio: 765765765, habitaciones: 0, dormitorios: 0, baños: 0, año de construcción: 0, metros cuadrados: 567 m², departamento: , ciudad: , barrio: , estado fisico: , garages: 0, direccion: , parrillero: False

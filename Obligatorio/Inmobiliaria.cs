@@ -75,7 +75,46 @@ namespace Obligatorio.Models
         {
             foreach(Inmueble i in Inmuebles)
             {
-                manejadorDeArchivos.Escribir("propiedades.txt", i.Barrio + i.AñoConstruccion);
+                if (i is Casa)
+                {
+                    manejadorDeArchivos.Escribir("Listado de propiedades.txt", $"Precio: U$S {i.Precio}," +
+                        $" habitaciones: {i.Habitaciones}," +
+                        $" dormitorios: {i.Dormitorios}," +
+                        $" baños: {i.Baños}," +
+                        $" año de construcción: {i.AñoConstruccion}," +
+                        $" metros cuadrados: {i.MetrosCuadrados} m\xB2," +
+                        $" departamento: {i.Departamento}," +
+                        $" ciudad: {i.Ciudad}," +
+                        $" barrio: {i.Barrio}," +
+                        $" estado fisico: {i.EstadoFisico}," +
+                        $" garages: {i.Garages}," +
+                        $" direccion: {i.Direccion}," +
+                        $" jardin: {(i as Casa).Jardin}," +
+                        $" patio: {(i as Casa).Patio}," +
+                        $" parrillero: {i.Parrillero}," +
+                        $" comentarios: {i.Comentarios}.");
+                }
+                else if (i is Apartamento)
+                {
+                    manejadorDeArchivos.Escribir("Listado de propiedades.txt", $"Precio: U$S {i.Precio}," +
+                        $" habitaciones: {i.Habitaciones}," +
+                        $" dormitorios: {i.Dormitorios}," +
+                        $" baños: {i.Baños}," +
+                        $" año de construcción: {i.AñoConstruccion}," +
+                        $" metros cuadrados: {i.MetrosCuadrados} m\xB2," +
+                        $" departamento: {i.Departamento}," +
+                        $" ciudad: {i.Ciudad}," +
+                        $" barrio: {i.Barrio}," +
+                        $" estado fisico: {i.EstadoFisico}," +
+                        $" garages: {i.Garages}," +
+                        $" direccion: {i.Direccion}," +
+                        $" numero de piso: {(i as Apartamento).NroPiso}," +
+                        $" porteria: {(i as Apartamento).Porteria}," +
+                        $" parrillero: {i.Parrillero}," +
+                        $" total de pisos: {(i as Apartamento).TotalPisos}," +
+                        $" gastos comunes: {(i as Apartamento).GastosComunes}," +                        
+                        $" comentarios: {i.Comentarios}.");
+                }
             }
         }
 
