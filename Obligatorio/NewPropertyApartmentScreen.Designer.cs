@@ -79,7 +79,7 @@
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-4, -4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1606, 127);
             this.panel1.TabIndex = 0;
@@ -87,7 +87,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(46, 48);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(150, 44);
             this.button4.TabIndex = 84;
@@ -111,7 +111,7 @@
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(962, 227);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(6);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(432, 119);
             this.btnAgregar.TabIndex = 74;
@@ -122,7 +122,7 @@
             // txtDepartamento
             // 
             this.txtDepartamento.Location = new System.Drawing.Point(240, 635);
-            this.txtDepartamento.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtDepartamento.Margin = new System.Windows.Forms.Padding(6);
             this.txtDepartamento.Name = "txtDepartamento";
             this.txtDepartamento.Size = new System.Drawing.Size(216, 31);
             this.txtDepartamento.TabIndex = 73;
@@ -131,7 +131,7 @@
             // txtGarages
             // 
             this.txtGarages.Location = new System.Drawing.Point(670, 392);
-            this.txtGarages.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtGarages.Margin = new System.Windows.Forms.Padding(6);
             this.txtGarages.Name = "txtGarages";
             this.txtGarages.Size = new System.Drawing.Size(238, 31);
             this.txtGarages.TabIndex = 72;
@@ -140,7 +140,7 @@
             // txtDireccion
             // 
             this.txtDireccion.Location = new System.Drawing.Point(670, 475);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(6);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(238, 31);
             this.txtDireccion.TabIndex = 71;
@@ -149,7 +149,7 @@
             // txtComentarios
             // 
             this.txtComentarios.Location = new System.Drawing.Point(670, 635);
-            this.txtComentarios.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtComentarios.Margin = new System.Windows.Forms.Padding(6);
             this.txtComentarios.Name = "txtComentarios";
             this.txtComentarios.Size = new System.Drawing.Size(238, 31);
             this.txtComentarios.TabIndex = 69;
@@ -208,7 +208,7 @@
             // txtMetros
             // 
             this.txtMetros.Location = new System.Drawing.Point(240, 804);
-            this.txtMetros.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtMetros.Margin = new System.Windows.Forms.Padding(6);
             this.txtMetros.Name = "txtMetros";
             this.txtMetros.Size = new System.Drawing.Size(216, 31);
             this.txtMetros.TabIndex = 62;
@@ -217,7 +217,7 @@
             // txtConstruccion
             // 
             this.txtConstruccion.Location = new System.Drawing.Point(240, 721);
-            this.txtConstruccion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtConstruccion.Margin = new System.Windows.Forms.Padding(6);
             this.txtConstruccion.Name = "txtConstruccion";
             this.txtConstruccion.Size = new System.Drawing.Size(216, 31);
             this.txtConstruccion.TabIndex = 61;
@@ -226,7 +226,7 @@
             // txtHabitaciones
             // 
             this.txtHabitaciones.Location = new System.Drawing.Point(240, 306);
-            this.txtHabitaciones.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtHabitaciones.Margin = new System.Windows.Forms.Padding(6);
             this.txtHabitaciones.Name = "txtHabitaciones";
             this.txtHabitaciones.Size = new System.Drawing.Size(216, 31);
             this.txtHabitaciones.TabIndex = 60;
@@ -291,7 +291,7 @@
             "Mal estado",
             "Reciclada"});
             this.cbEstado.Location = new System.Drawing.Point(670, 306);
-            this.cbEstado.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbEstado.Margin = new System.Windows.Forms.Padding(6);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(238, 33);
             this.cbEstado.TabIndex = 54;
@@ -304,7 +304,7 @@
             "Si",
             "No"});
             this.cbParrillero.Location = new System.Drawing.Point(670, 219);
-            this.cbParrillero.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbParrillero.Margin = new System.Windows.Forms.Padding(6);
             this.cbParrillero.Name = "cbParrillero";
             this.cbParrillero.Size = new System.Drawing.Size(238, 33);
             this.cbParrillero.TabIndex = 53;
@@ -317,7 +317,7 @@
             "Si",
             "No"});
             this.cbJardin.Location = new System.Drawing.Point(670, 150);
-            this.cbJardin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbJardin.Margin = new System.Windows.Forms.Padding(6);
             this.cbJardin.Name = "cbJardin";
             this.cbJardin.Size = new System.Drawing.Size(238, 33);
             this.cbJardin.TabIndex = 52;
@@ -326,7 +326,7 @@
             // txtCiudad
             // 
             this.txtCiudad.Location = new System.Drawing.Point(240, 469);
-            this.txtCiudad.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtCiudad.Margin = new System.Windows.Forms.Padding(6);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(216, 31);
             this.txtCiudad.TabIndex = 51;
@@ -335,7 +335,7 @@
             // txtBarrio
             // 
             this.txtBarrio.Location = new System.Drawing.Point(240, 548);
-            this.txtBarrio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtBarrio.Margin = new System.Windows.Forms.Padding(6);
             this.txtBarrio.Name = "txtBarrio";
             this.txtBarrio.Size = new System.Drawing.Size(216, 31);
             this.txtBarrio.TabIndex = 50;
@@ -344,7 +344,7 @@
             // txtBaños
             // 
             this.txtBaños.Location = new System.Drawing.Point(240, 387);
-            this.txtBaños.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtBaños.Margin = new System.Windows.Forms.Padding(6);
             this.txtBaños.Name = "txtBaños";
             this.txtBaños.Size = new System.Drawing.Size(216, 31);
             this.txtBaños.TabIndex = 49;
@@ -353,7 +353,7 @@
             // txtDormitorio
             // 
             this.txtDormitorio.Location = new System.Drawing.Point(240, 219);
-            this.txtDormitorio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtDormitorio.Margin = new System.Windows.Forms.Padding(6);
             this.txtDormitorio.Name = "txtDormitorio";
             this.txtDormitorio.Size = new System.Drawing.Size(216, 31);
             this.txtDormitorio.TabIndex = 48;
@@ -362,7 +362,7 @@
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(240, 144);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(6);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(216, 31);
             this.txtPrecio.TabIndex = 47;
@@ -411,7 +411,7 @@
             // txtGastosComunes
             // 
             this.txtGastosComunes.Location = new System.Drawing.Point(1152, 150);
-            this.txtGastosComunes.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtGastosComunes.Margin = new System.Windows.Forms.Padding(6);
             this.txtGastosComunes.Name = "txtGastosComunes";
             this.txtGastosComunes.Size = new System.Drawing.Size(238, 31);
             this.txtGastosComunes.TabIndex = 82;
@@ -420,10 +420,11 @@
             // txtPisos
             // 
             this.txtPisos.Location = new System.Drawing.Point(670, 719);
-            this.txtPisos.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPisos.Margin = new System.Windows.Forms.Padding(6);
             this.txtPisos.Name = "txtPisos";
             this.txtPisos.Size = new System.Drawing.Size(238, 31);
             this.txtPisos.TabIndex = 81;
+            this.txtPisos.TextChanged += new System.EventHandler(this.txtPisos_TextChanged);
             // 
             // label9
             // 
@@ -445,10 +446,11 @@
             "Si",
             "No"});
             this.cbPorteria.Location = new System.Drawing.Point(670, 804);
-            this.cbPorteria.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbPorteria.Margin = new System.Windows.Forms.Padding(6);
             this.cbPorteria.Name = "cbPorteria";
             this.cbPorteria.Size = new System.Drawing.Size(238, 33);
             this.cbPorteria.TabIndex = 79;
+            this.cbPorteria.SelectedIndexChanged += new System.EventHandler(this.cbPorteria_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -463,7 +465,7 @@
             // txtNroPiso
             // 
             this.txtNroPiso.Location = new System.Drawing.Point(670, 554);
-            this.txtNroPiso.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtNroPiso.Margin = new System.Windows.Forms.Padding(6);
             this.txtNroPiso.Name = "txtNroPiso";
             this.txtNroPiso.Size = new System.Drawing.Size(238, 31);
             this.txtNroPiso.TabIndex = 77;
@@ -544,7 +546,7 @@
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "NewPropertyApartmentScreen";
             this.Text = "FormNewProperty";
             this.Load += new System.EventHandler(this.FormNewProperty_Load);

@@ -97,7 +97,7 @@ namespace Obligatorio
 
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
-            comentarios=txtComentario.Text;
+            comentarios = txtComentario.Text;
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -145,6 +145,7 @@ namespace Obligatorio
                 EstadoFisico = estado,
                 Garages = garages, //Convert.ToInt32(textBox12),
                 Direccion = direccion, //textBox11.Text,
+                Jardin = jardin,
                 Parrillero = parrillero,
                 Comentarios = new List<string>(),                
             };

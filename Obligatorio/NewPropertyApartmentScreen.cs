@@ -27,9 +27,11 @@ namespace Obligatorio.Models
         private bool parrillero;
         private bool jardin;
         private int precio;
-        private int piso;
+        private int nroPiso;
+        private int pisos;
         private string comentarios;
         private int gastos;
+        private bool portero;
 
         public NewPropertyApartmentScreen()
         {
@@ -115,12 +117,12 @@ namespace Obligatorio.Models
 
         private void textBox12_TextChanged(object sender, EventArgs e)
         {
-            ciudad = txtCiudad.Text;
+            garages = Convert.ToInt32(txtGarages.Text);
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            piso = Convert.ToInt32(txtNroPiso.Text);
+            nroPiso = Convert.ToInt32(txtNroPiso.Text);
         }
 
         private void textBox9_TextChanged(object sender, EventArgs e)
@@ -168,6 +170,24 @@ namespace Obligatorio.Models
             }
         }
 
+        
+        private void cbPorteria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbPorteria.SelectedItem.ToString() == "Si" || cbPorteria.SelectedItem.ToString() == "si")
+            {
+                portero = true;
+            }
+            else if (cbPorteria.SelectedItem.ToString() == "No" || cbPorteria.SelectedItem.ToString() == "no")
+            {
+                portero = false;
+            }
+        }
+
+        private void txtPisos_TextChanged(object sender, EventArgs e)
+        {
+            pisos = Convert.ToInt32(txtPisos.Text);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Apartamento apto = new Apartamento
@@ -186,7 +206,9 @@ namespace Obligatorio.Models
                 Direccion = direccion, //textBox11.Text,
                 Parrillero = parrillero,
                 GastosComunes = gastos,
-                NroPiso = piso,
+                NroPiso = nroPiso,
+                TotalPisos = pisos,
+                Porteria = portero,
                 Comentarios = new List<string>(),
             };
 
