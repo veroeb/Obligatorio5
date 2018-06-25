@@ -213,6 +213,7 @@ namespace Obligatorio.Models
             };
 
             Inmobiliaria.GetInmobiliaria().AgregarPropiedad(apto);
+            MessageBox.Show("Propiedad agregada correctamente");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Obligatorio.Forms;
+using Obligatorio.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,10 +14,13 @@ namespace Obligatorio
 {
     public partial class HomeScreen : Form
     {
+        Comprador CompradorActual;
+        Inmueble InmuebleActual;
+
         public HomeScreen()
         {
             InitializeComponent();
-
+            
 
             //private void findButton_Click(object sender, System.EventArgs e)
             //{
@@ -37,7 +41,7 @@ namespace Obligatorio
             //comboBoxDepartamento.Items.Add("Tacuarembó");
 
             #region ComboBoxDepartamento
-            
+
 
             List<String> listaDepartamentos = new List<String>
             {
@@ -49,7 +53,7 @@ namespace Obligatorio
             comboBoxDepartamento.Text = "";
 
             #endregion
-                       
+
         }
 
         //private void comboBoxDepartamento_SelectedIndexChanged(object sender, EventArgs e)
@@ -72,6 +76,8 @@ namespace Obligatorio
         //    //        break;
         //    //}
         //}
+
+        
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -157,5 +163,55 @@ namespace Obligatorio
             }
             //Volver atras
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Inmobiliaria.GetInmobiliaria();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //ACTUALIZAR
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            
+            Inmobiliaria.GetInmobiliaria().VenderAlquilar(InmuebleActual , CompradorActual);
+            //VENDER
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //Inmobiliaria.GetInmobiliaria().VisitarPropiedad()
+            //AGENDAR
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //Nombre del comPrador
+        }
+        
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            //ci
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            //coRreo
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            //number
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Comprador comprador = new Comprador(textBox1.Text,textBox4.Text,textBox3.Text, Convert.ToInt32(textBox2));
+            CompradorActual = comprador;
+            //crea ese comprador
+        }
+
     }
 }

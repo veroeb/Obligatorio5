@@ -10,7 +10,7 @@ namespace Obligatorio.Models
     {
         #region Propiedades
 
-        private List<Inmueble> Inmuebles;
+        public List<Inmueble> Inmuebles;
         private List<Propietario> Owners;
         private List<Comprador> Buyers;
         private List<String> Listado;

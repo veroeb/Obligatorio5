@@ -151,7 +151,8 @@ namespace Obligatorio
             };
 
             Inmobiliaria.GetInmobiliaria().AgregarPropiedad(casa);
-            
+            MessageBox.Show("Propiedad agregada correctamente");
+
         }
 
         private void button4_Click(object sender, EventArgs e)
